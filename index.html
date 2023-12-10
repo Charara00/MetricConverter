@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Metric Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" class="sticky">
+        <div class="left">
+            <img id="set-square" src="set-square-pngrepo-com (1).png" alt="Set Square Image">
+        </div>
+        <div class="left">
+            <h1>Metric Converter</h1>
+        </div>
+        <ul id="categories">
+            <li class="indicator"><a href="#temperature">Temperature Conversion</a></li>
+            <li class="indicator"><a href="#height">Height Conversion</a></li>
+            <li class="indicator"><a href="#weight">Weight Conversion</a></li>
+            <li class="indicator"><a href="#volume">Volume Conversion</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+            <div id="temperature" class="conversion-section">
+                <h2>Temperature Converter</h2>
+                <table>
+                    <tr id="celsius" class="conversion-input">
+                        <th><label for="input-celsius">Celsius</label></th>
+                        <td><input type="number" class="form-padding" id="input-celsius"/></td>
+                    </tr>
+                    <tr id="fahrenheit" class="conversion-input">
+                        <th><label for="input-fahrenheit">Fahrenheit</label></th>
+                        <td><input type="number" class="form-padding" id="input-fahrenheit"/></td>
+                    </tr>
+                    <tr id="kelvin" class="conversion-input">
+                        <th><label for="input-kelvin">Kelvin</label></th>
+                        <td><input type="number" class="form-padding" id="input-kelvin"/></td>
+                    </tr>
+                </table>
+            </div>
+        <div id="height" class="conversion-section">
+            <h2>Height Converter</h2>
+            <table>
+                <tr id="meter" class="conversion-input">
+                    <th><label for="input-meter">Meter</label></th>
+                    <td><input type="number" class="form-padding" id="input-meter"/></td>
+                </tr>
+                <tr id="foot" class="conversion-input">
+                    <th><label for="input-foot">Foot</label></th>
+                    <td><input type="number" class="form-padding" id="input-foot"/></td>
+                </tr>
+                <tr id="inche" class="conversion-input">
+                    <th><label for="input-inche">Inch</label></th>
+                    <td><input type="number" class="form-padding" id="input-inche"/></td>
+                </tr>
+            </table>
+        </div>
+        <div id="weight" class="conversion-section">
+            <h2>Weight Converter</h2>
+            <table>
+                <tr id="kilogram" class="conversion-input">
+                    <th><label for="input-kilogram">Kilogram</label></th>
+                    <td><input type="number" class="form-padding" id="input-kilogram"/></td>
+                </tr>
+                <tr id="pound" class="conversion-input">
+                    <th><label for="input-pound" >Pound</label></th>
+                    <td><input type="number" class="form-padding" id="input-pound"/></td>
+                </tr>
+            </table>
+        </div>
+        <div id="volume" class="conversion-section">
+            <h2>Volume Converter</h2>
+            <table>
+                <tr id="liter" class="conversion-input">
+                    <th><label for="input-liter">Liter</label></th>
+                    <td><input type="number" class="form-padding" id="input-liter"/></td>
+                </tr>
+                <tr id="gallon" class="conversion-input">
+                    <th><label for="input-gallon">Gallon</label></th>
+                    <td><input type="number" class="form-padding" id="input-gallon"/></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <footer>
+        <p>by Charara</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

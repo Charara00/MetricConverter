@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: calibri;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+}
+
+header {
+    background-color: #2e3436;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+header h1 {
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #4b5456;
+}
+.indicator {
+    color: #ff0000;
+}
+.conversion-section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.sticky + #content {
+    padding-top: 120px;
+}
+
+#set-square {
+    width: 50px;
+}
+
+#categories {
+    float: right;
+    list-style-type: none;
+}
+
+#categories li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: #5d5d5d;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+#content {
+    padding: 16px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    font-weight: normal;
+    width: 200px;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 25pt;
+}
+
+label{
+    font-size: 2.5rem;
+}
+
+input[type=number] {
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.form-padding {
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#input-celsius{
+    background-color: #52DDCF;
+    font-size: 2.5rem;
+}
+  
+#input-fahrenheit{
+    background-color: #16BAC5;
+    font-size: 2.5rem;
+}
+  
+#input-kelvin{
+    background-color: #42a0d9;
+    font-size: 2.5rem;
+}
+
+#input-meter{
+    background-color: #E59866;
+    font-size: 2.5rem;
+}
+  
+#input-foot{
+    background-color: #DC7633;
+    font-size: 2.5rem;
+}
+  
+#input-inche{
+    background-color: #D35400;
+    font-size: 2.5rem;
+}
+
+#input-kilogram{
+    background-color: #FFF2D8;
+    font-size: 2.5rem;
+}
+  
+#input-pound{
+    background-color: #EAD7BB;
+    font-size: 2.5rem;
+}
+
+#input-liter{
+    background-color: #9F91CC;
+    font-size: 2.5rem;
+}
+ 
+#input-gallon{
+    background-color: #3D246C;
+    font-size: 2.5rem;
+}
+
+.conversion-section {
+    padding: 20px 0;
+}
+
+.conversion-input {
+    margin: 10px 0;
+}
+
+footer {
+    font-size: 1.2rem;
+    font-family: 'Lightning Script', Calibri, sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+}
+
